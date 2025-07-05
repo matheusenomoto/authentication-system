@@ -50,6 +50,7 @@ authentication-system/
 
 3.  **Expected Output:**
     The script will run through several authentication scenarios (successful and failed) for each strategy and print the results to the console.
+    
     ![image](https://github.com/user-attachments/assets/95344b14-e377-4c42-b91a-ee7d2fce5381)
 
 
