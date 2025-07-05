@@ -50,6 +50,8 @@ authentication-system/
 
 3.  **Expected Output:**
     The script will run through several authentication scenarios (successful and failed) for each strategy and print the results to the console.
+    ![image](https://github.com/user-attachments/assets/95344b14-e377-4c42-b91a-ee7d2fce5381)
+
 
 ## Potential AWS Integration & Next Steps
 
@@ -59,3 +61,9 @@ This project serves as a strong foundation. For a **Solutions Architect** role, 
 - **AWS Lambda & API Gateway:** The `AuthenticationFacade` logic could be deployed as a serverless AWS Lambda function. An Amazon API Gateway endpoint (`POST /auth`) would trigger the function, making it a scalable microservice.
 - **AWS Secrets Manager:** Instead of hardcoding tokens or secrets, store third-party credentials (like Google Client ID/Secret) securely in AWS Secrets Manager.
 - **IAM Roles:** Upon successful authentication (especially via Cognito), the system could grant the user temporary, limited-privilege IAM credentials to access other AWS resources (like S3 or DynamoDB) securely.
+
+---
+
+#### **Matheus Enomoto**
+- [Blog](https://matheusenomoto.com/)
+- [LinkedIn](https://www.linkedin.com/in/matheus-lopes-enomoto/)
