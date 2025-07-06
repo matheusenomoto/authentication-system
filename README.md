@@ -1,5 +1,7 @@
 # Authentication System using Facade, Strategy, and Singleton Patterns
 
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=for-the-badge&logo=python&logoColor=white)
+
 This project is a Python implementation of a flexible authentication system. It uses the **Facade**, **Strategy**, and **Singleton** design patterns to provide a clean, scalable, and easy-to-use authentication module.
 
 This system is designed to showcase best practices in software architecture and object-oriented design, making it a great portfolio piece for roles like Solutions Architect or software developer.
